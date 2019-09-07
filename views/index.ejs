@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title><%= title %></title>
+  <meta charset="UTF-8">
+  <script type="text/javascript" src="/javascripts/jquery-3.4.1/jquery-3.4.1.min.js"></script>
+  <link rel='stylesheet' href='/stylesheets/style.css' />
+  <link rel="stylesheet" href="/stylesheets/normalize.css">
+  <link rel='stylesheet' href='/stylesheets/bootstrap/css/bootstrap.min.css' />
+  <link rel='stylesheet' href='/stylesheets/bootstrap/css/bootstrap-theme.min.css' />
+  <link rel='stylesheet' href='/stylesheets/bootstrap/css/bootstrap-responsive.min.css' />
+  <script type="text/javascript" src="/stylesheets/bootstrap/js/bootstrap.min.js"></script>
+  <!-- <script type="text/javascript" src="/javascripts/ejs.min.js"></script> -->
+  <script type="text/javascript" src="/javascripts/socket.io.js"></script>
+  <meta name="viewport" ,content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+</head>
+
+<body>
+  <div id="hearder" class="row-fluid">
+    <%-include ./header%>
+  </div>
+
+  <div id="quit" class="row-fluid">
+    <%-include ./quit%>
+  </div>
+
+  <div id="main" class="row-fluid">
+    <div id="user" class="span3">
+      <%-include ./user%>
+    </div>
+    <div id="IM" class="span7">
+      <%-include ./IM%>
+    </div>
+    <div id="side" class="span2">
+      <%-include ./side%>
+    </div>
+  </div>
+
+  <div id="footer" class="row-fluid">
+    <%-include ./footer%>
+  </div>
+  <script type="text/javascript" src="/javascripts/index-js.js"></script>
+</body>
+
+</html>

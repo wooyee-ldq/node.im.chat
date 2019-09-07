@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="/stylesheets/normalize.css">
+    <link rel='stylesheet' href='/stylesheets/bootstrap/css/bootstrap.min.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap/css/bootstrap-theme.min.css' />
+    <link rel='stylesheet' href='/stylesheets/bootstrap/css/bootstrap-responsive.min.css' />
+    <script type="text/javascript" src="/stylesheets/bootstrap/js/bootstrap.min.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>聊天室(IM)登录页面</title>
+    <style type="text/css">
+        body {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            background-color: rgb(41, 75, 105);
+        }
+
+        .login {
+            margin: 100px auto;
+            color: aliceblue;
+        }
+
+        .login span {
+            color: #414447;
+        }
+
+        #btn {
+            padding-top: 20px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="login">
+        <h2>登录</h2>
+        <hr>
+        <div style="color: rgb(201, 116, 105);">&nbsp;&nbsp;<%= error%></div>
+        <form action="/index" method="POST">
+            <div class="input-prepend">
+                <span class="add-on">@</span>
+                <input type="text" class="span3" id="userName" name="userName" placeholder="Username">
+            </div>
+            <br>
+            <div class="input-prepend">
+                <span class="add-on">#</span>
+                <input type="password" class="span3" id="password" name="password" placeholder="Password">
+            </div>
+            <div id="btn">
+                <button class="btn btn-primary span2" type="submit">Login&nbsp;in</button>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>

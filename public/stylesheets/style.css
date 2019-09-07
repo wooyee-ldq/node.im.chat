@@ -1,0 +1,301 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  cursor: pointer;
+}
+
+.header {
+  font-size: 20px;
+  height: 30px;
+  line-height: 30px;
+  background-color: #343536;
+  color: #fff;
+}
+
+.header img {
+  height: 30px;
+}
+
+.footer {
+  text-align: center;
+  color: #3a3d3f;
+  font-size: 12px;
+  font-weight: bold;
+}
+
+#IM {
+  padding-top: 20px;
+}
+
+.IM hr {
+  background-color: #c8d1da;
+}
+
+#gethistory {
+  text-align: center;
+  padding-bottom: 10px;
+}
+
+#gethistory span {
+  display: inline-block;
+  width: 150px;
+  font-size: 16px;
+  color: #292a2b;
+  background-color: #b6bec5;
+  opacity: 0.4;
+}
+
+#gethistory :hover{
+  opacity: 0.2;
+  /* cursor: pointer; */
+}
+
+.text-box {
+  overflow: auto;
+  height: 400px;
+}
+
+.text-box li{
+  list-style: none;
+}
+
+/* 测试css： */
+.msg{
+  padding-bottom: 10px;
+}
+
+.date-time{
+  text-align: center;
+  font-size: 12px;
+  color: #5ba5c2;
+  padding-bottom: 5px;
+}
+
+.msg img{
+  height: 40px;
+  padding: 0px 5px;
+}
+.textleft{
+  text-align: left;
+}
+.textright{
+  text-align: right;
+}
+
+.rightbg{
+  border: 0px;
+  /* background-color: #83d1e9; */
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.leftbg{
+  border: 0px;
+  background-color: #76e4ba;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.rightmsg{
+  display: inline-block;
+  height:0px;
+	width:0px;
+	border-width:5px;
+  border-style:solid;
+  /* border-color: #e8e8e8 #e8e8e8 #e8e8e8 #83d1e9; */
+  border-color: #e8e8e8 #e8e8e8 #e8e8e8 #fff;
+}
+
+.leftmsg{
+  display: inline-block;
+  height:0px;
+	width:0px;
+	border-width:5px;
+  border-style:solid;
+  border-color: #e8e8e8 #76e4ba #e8e8e8 #e8e8e8;
+}
+
+/* 测试css： */
+
+.send-box {
+  height: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.send-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* #user{
+  
+} */
+
+.pic{
+  text-align: center;
+  padding: 10px 0px;
+}
+
+.pic img{
+  height: 100px;
+  /* border: 1px solid black; */
+}
+
+/* .quit{
+ 
+} */
+
+.user-msg{
+  text-align: center;
+  padding: 10px 0px 20px 0px;
+  color: #8f9696;
+}
+
+.msg-color{
+  color: #0f667c;
+  font-size: 16px;
+}
+
+/*.user-femate-color{
+  color: #c58ccf;
+} */
+
+.user-id{
+  /* display: none; */
+  padding-top: 5px;
+}
+
+.chatuser-id{
+  padding-top: 5px;
+  display: inline-block;
+}
+
+.fd-list-btn{
+  border-top: 2px solid #c6ccd1;
+  padding-top: 1px;
+}
+
+.fd-list{
+  overflow: auto;
+  height: 450px;
+  /* border-bottom: 2px solid black; */
+  /* border: 2px solid #a4a5a6;
+  border-top: 0px; */
+  text-align: center;
+  /* background-color: aquamarine; */
+  font-size: 16px;
+}
+
+.fd-list li{
+  /* height:30px;
+  line-height: 30px; */
+  list-style: none;
+  margin: 2px 0px;
+  text-align: left;
+  padding-left: 20px;
+  border-bottom: 1px solid #b4b5b6;
+  color: #2385be;
+}
+
+.fd-list li:hover{
+  color:  #0f667c;
+  font-size: 18px;
+  border: 2px solid #7fcdf1;
+}
+
+.fd-list div{
+  display: inline-block;
+  width: 50px;
+}
+
+.new{
+  color: #e75146;
+  font-size: 50px;
+}
+
+.search{
+  display: none;
+  text-align: center;
+  padding-top: 20px;
+}
+
+.search-res{
+  padding-top: 20px;
+  text-align: center;
+}
+
+.search-res li{
+  text-align: left;
+  list-style: none;
+  border-bottom: 1px solid #b4b5b6;
+  margin: 0px;
+}
+
+.search-res li div{
+  display: inline-block;
+  width: 50px;
+}
+
+.search-res button{
+  margin-top: 5px;
+}
+
+/* .search-res>li>div>span{
+  text-align: left;
+} */
+
+.list-img{
+  height: 40px;
+  padding-right: 20px;
+}
+
+
+#quit{
+  display: none;
+  height: 200px;
+  padding-top: 50px;
+}
+
+.quit{
+  text-align: center;
+}
+
+.quit button{
+  width: 80px;
+}
+
+.apply{
+  display: none;
+  overflow: auto;
+  text-align: center;
+  margin-top: 80px;
+  height: 440px;
+  color: #58a2c5;
+}
+
+.apply li{
+  list-style: none;
+  padding-top: 20px;
+  color: #777b80;
+}
+
+.apply li img{
+  height: 40px;
+}
+
+.agree{
+  width: 60px;
+  background-color: mediumseagreen;
+  color: #fff;
+}
+
+.refuse{
+  width: 60px;
+  background-color: dimgray;
+  color: #fff;
+}
