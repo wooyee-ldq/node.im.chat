@@ -1,9 +1,10 @@
-# chat IM
-## 一个基于nodejs的聊天室（IM）...
+## 聊天室：chat-IM
+
 * nodejs
-* express
+* express.js
 * socket.io
 * mongodb
+* mongoose
 * ejs
 * bootstrap
 * jquery
@@ -29,9 +30,9 @@
 ![](img/search.png)
 
 ---
-### ⑤获取聊天记录：
+### ⑤退出页面：
 
-![](img/gethistory.png)
+![](img/quit.png)
 
 ---
 >> #### 聊天新消息持久化缓存，新消息提示等基本功能~
