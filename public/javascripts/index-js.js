@@ -224,7 +224,7 @@ $(document).ready(function () {
             for (let i = 0; i < len; i++) {
                 let addli = "<li applyid='" + data[i].id + "'>" +
                     "<img src='/images/pic/" + data[i].pic + "'>" +
-                    "<span>" + data[i].sex + "&nbsp;&nbsp;" + data[i].name + "</span>" +
+                    "<span>" + data[i].sex + "</span>&nbsp;&nbsp;<span>" + data[i].name + "</span>" +
                     "<div><button class='refuse'>拒绝</button>&nbsp;&nbsp;&nbsp;&nbsp;" +
                     "<button class='agree'>同意</button>" +
                     "</div></li>";
